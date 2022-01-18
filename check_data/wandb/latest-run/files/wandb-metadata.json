@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.4.0-70-generic-x86_64-with-glibc2.27",
+    "python": "3.9.2",
+    "heartbeatAt": "2021-04-06T22:25:45.323041",
+    "startedAt": "2021-04-06T22:25:44.617146",
+    "docker": null,
+    "gpu": "Quadro P2000",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow.git",
+        "commit": "9da4f0ce2d1d1dfda96a9736c19b48ed92b533b8"
+    },
+    "email": "giacomo@capeanalytics.com",
+    "root": "/home/giacomov/udacity/repo/nd0821-c2-build-model-workflow",
+    "host": "pluto",
+    "username": "giacomov",
+    "executable": "/home/giacomov/miniconda3/envs/mlflow-7398531e5288219e428182dc4d6601ae57991d39/bin/python"
+}

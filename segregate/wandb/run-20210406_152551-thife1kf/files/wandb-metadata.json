@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.4.0-70-generic-x86_64-with-glibc2.27",
+    "python": "3.9.2",
+    "heartbeatAt": "2021-04-06T22:25:52.684189",
+    "startedAt": "2021-04-06T22:25:51.916517",
+    "docker": null,
+    "gpu": "Quadro P2000",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/giacomov/udacity/repo/nd0821-c2-build-model-workflow/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/segregate/run.py",
+    "codePath": "lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/segregate/run.py",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow.git",
+        "commit": "9da4f0ce2d1d1dfda96a9736c19b48ed92b533b8"
+    },
+    "email": "giacomo@capeanalytics.com",
+    "root": "/home/giacomov/udacity/repo/nd0821-c2-build-model-workflow",
+    "host": "pluto",
+    "username": "giacomov",
+    "executable": "/home/giacomov/miniconda3/envs/mlflow-b536c99cab3f07bfeb0a1ad9e153575c07cd087e/bin/python"
+}
